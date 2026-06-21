@@ -1,2 +1,9 @@
 # KiCad backup files
 bms-afe-backups/
+
+# KiCad lock files
+*.lck
+~*.lck
+
+# KiCad backups
+*.bak

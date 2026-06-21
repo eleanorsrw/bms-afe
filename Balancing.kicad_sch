@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "ad6185b3-3f7a-4406-97ef-3d96ef784af9")
+	(uuid "fd579fa3-d482-4324-b1ff-21a1c7f3962e")
 	(paper "A4")
 	(lib_symbols
 		(symbol "symbols:MP2790DFP-0002-T"
@@ -1009,7 +1009,7 @@
 	)
 	(symbol
 		(lib_id "symbols:MP2790DFP-0002-T")
-		(at 181.61 60.96 0)
+		(at 181.61 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1020,7 +1020,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b2f63b6-caf9-43fe-bab1-f7220531911b")
 		(property "Reference" "U1"
-			(at 209.55 48.26 0)
+			(at 209.55 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1030,7 +1030,7 @@
 			)
 		)
 		(property "Value" "MP2790DFP-0002-T"
-			(at 209.55 50.8 0)
+			(at 209.55 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1040,7 +1040,7 @@
 			)
 		)
 		(property "Footprint" "footprints:TQFP-48_MP2790_MNP"
-			(at 181.61 60.96 0)
+			(at 181.61 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1052,7 +1052,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/monolithic-power-systems-inc/MP2790DFP-0002-T/22589381"
-			(at 181.61 60.96 0)
+			(at 181.61 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1064,7 +1064,7 @@
 			)
 		)
 		(property "Description" "IC BATT MONITOR 4-10CELL 48-TQFP"
-			(at 209.55 53.34 0)
+			(at 209.55 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1222,6 +1222,92 @@
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/9aa16ca4-990b-4c84-ac14-7f5aa42928e6"
 					(reference "U1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 66.04)
+		(size 17.78 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6c3e871e-7d74-46a2-a332-c4b961cdea6f")
+		(property "Sheetname" "CellBalance"
+			(at 152.4 65.3284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CellBalance.kicad_sch"
+			(at 152.4 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Battery_Bottom" output
+			(at 152.4 81.28 180)
+			(uuid "df2dabf4-9352-470f-9c0b-34953a0f7c1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Monitor_Bottom" input
+			(at 170.18 76.2 0)
+			(uuid "0c9f84b0-ee21-4e6b-98ee-124e382d68b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Battery_Top" output
+			(at 152.4 68.58 180)
+			(uuid "a0c8bae5-3f16-4a2c-bd1a-aa1687f71f5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Monitor_Top" output
+			(at 170.18 73.66 0)
+			(uuid "6fbaca04-7e5d-4065-ae87-46159c5f10bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/9aa16ca4-990b-4c84-ac14-7f5aa42928e6"
+					(page "4")
 				)
 			)
 		)

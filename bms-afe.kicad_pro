@@ -648,7 +648,7 @@
         "uuid": "226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
       }
     ],
-    "used_designators": "U1,R1",
+    "used_designators": "U1,R1-5,Q1,C1,D1",
     "variants": []
   },
   "sheets": [
@@ -663,6 +663,10 @@
     [
       "9aa16ca4-990b-4c84-ac14-7f5aa42928e6",
       "Balancing"
+    ],
+    [
+      "6c3e871e-7d74-46a2-a332-c4b961cdea6f",
+      "CellBalance"
     ]
   ],
   "text_variables": {},
