@@ -5,4 +5,14 @@
 	(uuid "9b3355e0-a14a-4e3c-91c8-0eab1f93c2ea")
 	(paper "A4")
 	(lib_symbols)
+	(text "pulse transformer, battery monitor connections, isouart goes on stm side"
+		(exclude_from_sim no)
+		(at 157.734 121.412 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "857d5b28-1c7f-4634-9fb7-db3ec77f8f8c")
+	)
 )
