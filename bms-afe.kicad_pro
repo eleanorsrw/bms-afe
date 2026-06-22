@@ -648,7 +648,7 @@
         "uuid": "226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
       }
     ],
-    "used_designators": "J3-4,R37-38,R44-47,C1,C16-17,C19-27,#PWR11,#PWR15,#PWR19-20,#PWR23-26",
+    "used_designators": "GSF1-6,D2-7,#PWR1-7,#PWR27-30,T1,C1-13,C28-35,R6-35,R39,R41,R48",
     "variants": []
   },
   "sheets": [
@@ -661,31 +661,31 @@
       "BMSConn"
     ],
     [
-      "fceaf5fa-7344-4055-8b26-e2fa960a8131",
-      "CellBalance1"
+      "a6f93463-0553-4e94-825f-86704d73fcd7",
+      "CellBalance"
     ],
     [
-      "4da5eafe-a281-4089-867d-3d8a796fa500",
-      "CellBalance"
+      "2aa084bd-01e7-47e5-8f6d-30b4f325d7f4",
+      "CellBalance1"
     ],
     [
       "0123e919-5cdb-453c-8cfd-f720a529864f",
       "AFEIC"
     ],
     [
-      "a93de50e-aacb-492a-b4ea-4e61681786a0",
+      "199aea63-5bfb-41be-ba55-0a021bc0a074",
       "CellBalance2"
     ],
     [
-      "f4de1358-4994-48f3-9ba8-487b4d21c443",
+      "cf97efbe-7ee9-4abe-8844-0d879c082204",
       "CellBalance3"
     ],
     [
-      "0e1f4268-9dd4-40cf-a056-713d140d2d21",
+      "30f9ba51-47e3-4adb-895f-80ddd8089ec1",
       "CellBalance4"
     ],
     [
-      "952ad68b-bfa9-4a78-b2b4-9abb6da10275",
+      "9ef805d4-1601-4480-b9fd-3e26be539576",
       "CellBalance5"
     ]
   ],

@@ -5,6 +5,358 @@
 	(uuid "9b3355e0-a14a-4e3c-91c8-0eab1f93c2ea")
 	(paper "A4")
 	(lib_symbols
+		(symbol "symbols:AMT45S-150-2P-TL000"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "T"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PULSE XFMR 15UH 1 OHM FOR PLC"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:AMT45S-150-2P-TL000"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.ca/en/products/detail/tdk/AMT45S-150-2P-TL000/28724340"
+				(at -7.62 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "15µH General Purpose Pulse Transformer Surface Mount"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "pulse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pulse*PA2777NL*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AMT45S-150-2P-TL000_0_1"
+				(arc
+					(start -2.54 1.524)
+					(mid -1.7813 0.762)
+					(end -2.54 0)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.7813 -0.762)
+					(end -2.54 -1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -1.524)
+					(mid -1.7813 -2.286)
+					(end -2.54 -3.048)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.048) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.175) (xy -0.635 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 3.175) (xy 0.635 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.048) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 1.524)
+					(mid 1.7813 2.286)
+					(end 2.54 3.048)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 1.7813 0.762)
+					(end 2.54 1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -1.524)
+					(mid 1.7813 -0.762)
+					(end 2.54 0)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -3.048)
+					(mid 1.7813 -2.286)
+					(end 2.54 -1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AMT45S-150-2P-TL000_1_1"
+				(arc
+					(start -2.54 3.048)
+					(mid -1.7813 2.286)
+					(end -2.54 1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "symbols:B2B-ZR"
 			(body_styles demorgan)
 			(pin_names
@@ -413,7 +765,7 @@
 	)
 	(text "Interface High (Points up to STM)"
 		(exclude_from_sim no)
-		(at 209.042 76.962 0)
+		(at 165.862 74.422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -423,7 +775,7 @@
 	)
 	(text "put a pulse transformer to stm"
 		(exclude_from_sim no)
-		(at 204.724 108.458 0)
+		(at 161.544 105.918 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -433,7 +785,7 @@
 	)
 	(text "pulse transformer, battery monitor connections, isouart goes on stm side"
 		(exclude_from_sim no)
-		(at 215.392 104.14 0)
+		(at 172.212 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -463,6 +815,96 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 85.09) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d87cea-50a6-49f5-ab33-b1626bb8165f")
+	)
+	(wire
+		(pts
+			(xy 144.78 91.44) (xy 152.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2e548a-bbc9-4a05-b107-0bfa33bd9a21")
+	)
+	(wire
+		(pts
+			(xy 180.34 91.44) (xy 185.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43869003-919c-4b23-8fae-0cc145f6f5f4")
+	)
+	(wire
+		(pts
+			(xy 180.34 85.09) (xy 180.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659a9e4a-7c07-4fb5-b96e-d160de895136")
+	)
+	(wire
+		(pts
+			(xy 168.91 95.25) (xy 180.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6727239b-d14b-4696-a52e-1208c78aa517")
+	)
+	(wire
+		(pts
+			(xy 152.4 95.25) (xy 158.75 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3a2b15-3398-4a68-a93f-d70cb4c491ae")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "713853b2-1e94-44d8-b2cd-cfe88bc96ca5")
+	)
+	(wire
+		(pts
+			(xy 180.34 88.9) (xy 185.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77fd560b-35ee-4b56-aa8e-9db1ae4b9462")
+	)
+	(wire
+		(pts
+			(xy 152.4 91.44) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f2c3a32-9336-4b4c-a730-602843bb6b39")
+	)
+	(wire
+		(pts
 			(xy 91.44 92.71) (xy 100.33 92.71)
 		)
 		(stroke
@@ -471,9 +913,39 @@
 		)
 		(uuid "86369dea-4f75-4994-8b79-97aea619857e")
 	)
+	(wire
+		(pts
+			(xy 144.78 88.9) (xy 152.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7131be3-f3e0-4c43-ad0c-4ed7ecffbc0b")
+	)
+	(wire
+		(pts
+			(xy 152.4 85.09) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49a744e-dc59-4c3d-9095-8b21bda9f1d8")
+	)
+	(wire
+		(pts
+			(xy 180.34 95.25) (xy 180.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec274401-a6b6-41dc-9eb6-42ee22aac3bd")
+	)
 	(hierarchical_label "IFL_L"
 		(shape input)
-		(at 154.94 90.17 180)
+		(at 144.78 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -484,7 +956,7 @@
 	)
 	(hierarchical_label "IFL_H"
 		(shape input)
-		(at 154.94 87.63 180)
+		(at 144.78 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -517,7 +989,7 @@
 	)
 	(symbol
 		(lib_id "symbols:B2B-ZR")
-		(at 198.12 86.36 0)
+		(at 185.42 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -528,7 +1000,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ee9ed64-d01f-4265-9fa5-55de99d5e643")
 		(property "Reference" "J3"
-			(at 212.09 86.3599 0)
+			(at 199.39 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -539,7 +1011,7 @@
 			)
 		)
 		(property "Value" "CONN HEADER VERT 2POS 1.5MM"
-			(at 212.09 88.8999 0)
+			(at 199.39 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -550,7 +1022,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CONN_B2B-ZR_02P_JST"
-			(at 198.12 86.36 0)
+			(at 185.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -562,7 +1034,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B2B-ZR/926564"
-			(at 198.12 86.36 0)
+			(at 185.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -574,7 +1046,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole 2 position 0.059\" (1.50mm)"
-			(at 198.12 86.36 0)
+			(at 185.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -594,6 +1066,92 @@
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/6d53ec20-967d-414a-950d-119f66d4f6c2"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:AMT45S-150-2P-TL000")
+		(at 163.83 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a2ade01-29af-4f9d-b45f-b0ece7043b4e")
+		(property "Reference" "T1"
+			(at 163.83 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PULSE XFMR 15UH 1 OHM FOR PLC"
+			(at 163.83 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:AMT45S-150-2P-TL000"
+			(at 163.83 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/tdk/AMT45S-150-2P-TL000/28724340"
+			(at 156.21 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "15µH General Purpose Pulse Transformer Surface Mount"
+			(at 163.83 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16812a9e-d47a-468c-bf90-a5f7ea7c0e43")
+		)
+		(pin "4"
+			(uuid "5f0d1c71-6e85-4c89-9965-489aa576154e")
+		)
+		(pin "2"
+			(uuid "5039b488-a277-4baf-b7f4-404ba2c47173")
+		)
+		(pin "3"
+			(uuid "547b3ce5-7443-4d2d-b3b0-348515204dc8")
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/6d53ec20-967d-414a-950d-119f66d4f6c2"
+					(reference "T1")
 					(unit 1)
 				)
 			)
