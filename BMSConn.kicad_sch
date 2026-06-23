@@ -5,6 +5,160 @@
 	(uuid "9b3355e0-a14a-4e3c-91c8-0eab1f93c2ea")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "symbols:AMT45S-150-2P-TL000"
 			(pin_names
 				(hide yes)
@@ -765,7 +919,7 @@
 	)
 	(text "Interface High (Points up to STM)"
 		(exclude_from_sim no)
-		(at 165.862 74.422 0)
+		(at 164.592 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -775,7 +929,7 @@
 	)
 	(text "put a pulse transformer to stm"
 		(exclude_from_sim no)
-		(at 161.544 105.918 0)
+		(at 161.29 112.522 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -785,7 +939,7 @@
 	)
 	(text "pulse transformer, battery monitor connections, isouart goes on stm side"
 		(exclude_from_sim no)
-		(at 172.212 101.6 0)
+		(at 171.958 108.204 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -803,6 +957,30 @@
 		)
 		(uuid "ebefc0dd-9761-4d87-8ac0-d4b38add1f3f")
 	)
+	(junction
+		(at 157.48 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09c8a7ab-fcf4-474e-9d12-53146e4cb621")
+	)
+	(junction
+		(at 157.48 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfc042ff-871b-4721-94f0-ad355a1951ee")
+	)
+	(junction
+		(at 180.34 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d903bd9f-191a-4dca-8ca3-a1709c351379")
+	)
+	(junction
+		(at 180.34 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7f81ca0-ad5f-49be-8d57-aec908aae9a6")
+	)
 	(wire
 		(pts
 			(xy 91.44 90.17) (xy 100.33 90.17)
@@ -815,7 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 85.09) (xy 180.34 85.09)
+			(xy 173.99 85.09) (xy 180.34 85.09)
 		)
 		(stroke
 			(width 0)
@@ -825,7 +1003,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 91.44) (xy 152.4 91.44)
+			(xy 157.48 76.2) (xy 157.48 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3ccb40-fee5-4551-8284-2d8ec736d96c")
+	)
+	(wire
+		(pts
+			(xy 149.86 91.44) (xy 157.48 91.44)
 		)
 		(stroke
 			(width 0)
@@ -845,6 +1033,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 101.6) (xy 180.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4665e2bc-e44a-474e-93e7-0546fcc1731b")
+	)
+	(wire
+		(pts
 			(xy 180.34 85.09) (xy 180.34 88.9)
 		)
 		(stroke
@@ -855,7 +1053,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 95.25) (xy 180.34 95.25)
+			(xy 173.99 95.25) (xy 180.34 95.25)
 		)
 		(stroke
 			(width 0)
@@ -865,7 +1063,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 95.25) (xy 158.75 95.25)
+			(xy 166.37 101.6) (xy 157.48 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac53482-f9c1-4fd6-b9f3-a0704b883258")
+	)
+	(wire
+		(pts
+			(xy 157.48 95.25) (xy 163.83 95.25)
 		)
 		(stroke
 			(width 0)
@@ -875,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 88.9) (xy 152.4 85.09)
+			(xy 157.48 88.9) (xy 157.48 85.09)
 		)
 		(stroke
 			(width 0)
@@ -895,13 +1103,43 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 91.44) (xy 152.4 95.25)
+			(xy 171.45 101.6) (xy 180.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4970cf-da3b-48a3-a843-8df2e9ce3dbe")
+	)
+	(wire
+		(pts
+			(xy 157.48 91.44) (xy 157.48 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7f2c3a32-9336-4b4c-a730-602843bb6b39")
+	)
+	(wire
+		(pts
+			(xy 180.34 76.2) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff24fb9-e68e-42cd-bc15-4b139f465030")
+	)
+	(wire
+		(pts
+			(xy 157.48 101.6) (xy 157.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8385dd6a-e99e-47b4-984b-fd814dcd135b")
 	)
 	(wire
 		(pts
@@ -915,7 +1153,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 88.9) (xy 152.4 88.9)
+			(xy 149.86 88.9) (xy 157.48 88.9)
 		)
 		(stroke
 			(width 0)
@@ -925,7 +1163,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 85.09) (xy 158.75 85.09)
+			(xy 166.37 76.2) (xy 157.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdde661b-7347-4960-a3e8-ea6ee2d7a1f3")
+	)
+	(wire
+		(pts
+			(xy 157.48 85.09) (xy 163.83 85.09)
 		)
 		(stroke
 			(width 0)
@@ -943,9 +1191,19 @@
 		)
 		(uuid "ec274401-a6b6-41dc-9eb6-42ee22aac3bd")
 	)
+	(wire
+		(pts
+			(xy 171.45 76.2) (xy 180.34 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faac6860-c679-431d-9a09-13e94dcb724c")
+	)
 	(hierarchical_label "IFL_L"
 		(shape input)
-		(at 144.78 91.44 180)
+		(at 149.86 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -956,7 +1214,7 @@
 	)
 	(hierarchical_label "IFL_H"
 		(shape input)
-		(at 144.78 88.9 180)
+		(at 149.86 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -986,6 +1244,86 @@
 			(justify left)
 		)
 		(uuid "d9ea6f5a-72aa-4b99-a606-75ec8e423c61")
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 168.91 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "265a0247-7400-4261-92d4-23b0e9a1a281")
+		(property "Reference" "R5"
+			(at 168.91 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 168.91 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 168.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f00903f1-0fbd-4139-bb4a-325332ae9fad")
+		)
+		(pin "2"
+			(uuid "ab6eae40-a5ae-4f8d-8fb3-174b48490b95")
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/6d53ec20-967d-414a-950d-119f66d4f6c2"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "symbols:B2B-ZR")
@@ -1073,7 +1411,7 @@
 	)
 	(symbol
 		(lib_id "symbols:AMT45S-150-2P-TL000")
-		(at 163.83 90.17 0)
+		(at 168.91 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1084,7 +1422,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a2ade01-29af-4f9d-b45f-b0ece7043b4e")
 		(property "Reference" "T1"
-			(at 163.83 80.01 0)
+			(at 168.91 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1094,7 +1432,7 @@
 			)
 		)
 		(property "Value" "PULSE XFMR 15UH 1 OHM FOR PLC"
-			(at 163.83 82.55 0)
+			(at 168.91 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1104,7 +1442,7 @@
 			)
 		)
 		(property "Footprint" "footprints:AMT45S-150-2P-TL000"
-			(at 163.83 90.17 0)
+			(at 168.91 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1115,7 +1453,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/tdk/AMT45S-150-2P-TL000/28724340"
-			(at 156.21 90.17 0)
+			(at 161.29 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1126,7 +1464,7 @@
 			)
 		)
 		(property "Description" "15µH General Purpose Pulse Transformer Surface Mount"
-			(at 163.83 90.17 0)
+			(at 168.91 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1169,7 +1507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c07083c7-eb35-4825-a394-47f72f40e26e")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 82.55 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1233,7 +1571,87 @@
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/6d53ec20-967d-414a-950d-119f66d4f6c2"
-					(reference "J4")
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 168.91 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccafa51d-297a-451b-bcf0-58cf96b2203f")
+		(property "Reference" "R4"
+			(at 168.91 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 168.91 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 168.91 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5656b329-7c08-44a6-b96a-0ec559d32bae")
+		)
+		(pin "2"
+			(uuid "b0bb1b64-9b05-4633-8df9-368805405ae0")
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/6d53ec20-967d-414a-950d-119f66d4f6c2"
+					(reference "R4")
 					(unit 1)
 				)
 			)
