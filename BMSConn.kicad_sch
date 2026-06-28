@@ -927,25 +927,15 @@
 		)
 		(uuid "11b28c6e-0917-467b-bfb1-4af768170050")
 	)
-	(text "put a pulse transformer to stm"
+	(text "Stuff resistor and remove pulse transformer if this AFE is not the first AFE"
 		(exclude_from_sim no)
-		(at 161.29 112.522 0)
+		(at 174.498 106.426 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "61b7e040-4ac3-42b5-9335-c7c619df7287")
-	)
-	(text "pulse transformer, battery monitor connections, isouart goes on stm side"
-		(exclude_from_sim no)
-		(at 171.958 108.204 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "857d5b28-1c7f-4634-9fb7-db3ec77f8f8c")
+		(uuid "43bda572-086a-408d-b8f3-eb1da206f9d2")
 	)
 	(text "Interface Low (Points down to daisy chain)"
 		(exclude_from_sim no)
