@@ -2275,170 +2275,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 156.21 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c2c2108-36a4-4f66-b94f-f343a656cd25")
-		(property "Reference" "C7"
-			(at 158.75 120.6562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330nF"
-			(at 158.75 123.1962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 156.21 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "917a81b9-e77b-460a-873d-6abd2d3c1301")
-		)
-		(pin "2"
-			(uuid "7048115a-1269-4721-bbb5-fd27b5cc59bb")
-		)
-		(instances
-			(project "bms-afe"
-				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 156.21 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2055eaa9-17ed-4e83-9367-69e7671c9f99")
-		(property "Reference" "C8"
-			(at 158.75 135.8962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330nF"
-			(at 158.75 138.4362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 156.21 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "961015b3-88b6-4b74-a9d5-48c3c6b7513b")
-		)
-		(pin "2"
-			(uuid "cfd15194-3196-4891-a3a4-aa76cf279327")
-		)
-		(instances
-			(project "bms-afe"
-				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 102.87 63.5 0)
 		(unit 1)
@@ -2518,7 +2354,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 102.87 45.72 0)
+		(at 156.21 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2526,10 +2362,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41f964f0-34aa-4032-b127-e99e7c473209")
-		(property "Reference" "C1"
-			(at 105.41 44.4562 0)
+		(uuid "3d3e2938-826d-417e-a986-8e648dab3071")
+		(property "Reference" "C58"
+			(at 149.098 120.904 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2539,8 +2374,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
-			(at 105.41 46.9962 0)
+		(property "Value" "CAP CER 0.33UF 16V X7R 0603"
+			(at 122.174 123.444 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2550,8 +2385,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.87 45.72 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2561,8 +2396,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 102.87 45.72 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B334KO8NNNC/3887706"
+			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2572,8 +2407,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 102.87 45.72 0)
+		(property "Description" "0.33 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2584,15 +2419,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "96f7f13c-719e-4e50-9cc7-77d8d35c3841")
+			(uuid "aace3838-31ce-4fc3-b51c-dfc5746158c6")
 		)
 		(pin "1"
-			(uuid "fc23abd7-3281-4c05-b4fe-6c59357d66e1")
+			(uuid "7cdfc672-1a89-45e4-a4e2-ce2a6b2f266e")
 		)
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
-					(reference "C1")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -2600,86 +2435,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 129.54 41.91 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5263ee80-8931-476d-8be3-e805376878cb")
-		(property "Reference" "R2"
-			(at 133.096 39.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 129.54 39.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 129.54 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a73733a8-8b28-42f8-8d93-e0ae52096c85")
-		)
-		(pin "1"
-			(uuid "d8c3fb5e-d7cb-4594-9567-e57a334ee3ff")
-		)
-		(instances
-			(project "bms-afe"
-				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 156.21 64.77 0)
+		(at 147.32 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2688,31 +2444,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "53a1e7e3-64da-4422-8201-f49ebb8e0364")
-		(property "Reference" "C3"
-			(at 158.75 63.5062 0)
+		(uuid "42704dec-c072-449b-bb3f-5101a838bbca")
+		(property "Reference" "R3"
+			(at 147.32 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "330nF"
-			(at 158.75 66.0462 0)
+		(property "Value" "RES SMD 5.1 OHM 1% 1/8W 0603"
+			(at 147.32 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 156.21 64.77 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 147.32 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2722,8 +2476,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 156.21 64.77 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/crcw06035r10fkea/1961617"
+			(at 147.32 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2733,8 +2487,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 156.21 64.77 0)
+		(property "Description" "5.1 Ohms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 147.32 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2744,16 +2498,27 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "1f0f9160-5ee8-43d6-a948-83160086fc36")
+		(property "LCSC" "C242492"
+			(at 147.32 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "f132a471-6ea4-483e-b050-80c1efaabbdf")
+			(uuid "1e85a476-0216-457e-8a66-4e5a5fa6b935")
+		)
+		(pin "1"
+			(uuid "304ebad3-862b-434d-852d-b1e6e5decf02")
 		)
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
-					(reference "C3")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2904,6 +2669,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 156.21 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "60b52748-6b6a-4b92-aaa2-24ec10ef4886")
+		(property "Reference" "C56"
+			(at 149.098 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAP CER 0.33UF 16V X7R 0603"
+			(at 122.174 95.504 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 156.21 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B334KO8NNNC/3887706"
+			(at 156.21 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.33 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 156.21 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "14388a07-453c-4d75-9038-64069e9d2fd8")
+		)
+		(pin "1"
+			(uuid "9bf72950-4470-48c0-ab8f-89d3aacd74e5")
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 138.43 31.75 0)
 		(unit 1)
@@ -2982,8 +2828,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 147.32 35.56 90)
+		(lib_id "Device:C_Small")
+		(at 102.87 45.72 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2992,29 +2838,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6d63ee42-880e-4dfc-b654-3adcf46ca8eb")
-		(property "Reference" "R3"
-			(at 147.32 29.21 90)
+		(uuid "6e5b451d-1f83-4dcd-b2f3-2c04efc8193d")
+		(property "Reference" "C11"
+			(at 105.41 44.4435 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "5.1"
-			(at 147.32 31.75 90)
+		(property "Value" "CAP CER 0603 1NF 16V X7R 10%"
+			(at 105.41 46.9835 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 147.32 35.56 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 102.87 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3024,8 +2872,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 147.32 35.56 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C102K4RECAUTO/8640472"
+			(at 102.87 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3035,8 +2883,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 147.32 35.56 0)
+		(property "Description" "1000 pF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 102.87 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3047,15 +2895,259 @@
 			)
 		)
 		(pin "2"
-			(uuid "3c15e12c-885d-4783-accf-9ab2ae242d55")
+			(uuid "8d074f9b-924b-4540-8907-92b4431a714d")
 		)
 		(pin "1"
-			(uuid "375a79ad-504b-4e91-97ce-895813edad58")
+			(uuid "25c2f11d-22c4-451f-b0b5-188e0dfb36a0")
 		)
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
-					(reference "R3")
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 171.45 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "728114c4-451d-47f5-a440-4dead18e6991")
+		(property "Reference" "C60"
+			(at 174.244 32.258 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAP CER 0.33UF 16V X7R 0603"
+			(at 174.498 35.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 171.45 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B334KO8NNNC/3887706"
+			(at 171.45 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.33 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 171.45 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e871d9c3-71e0-4332-88d1-cb3116d3be3e")
+		)
+		(pin "1"
+			(uuid "d3257b57-c75f-4a31-9af7-036f23da3353")
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
+					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 156.21 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8691aa7b-f5dd-40ad-8662-c7aa7fd98ec8")
+		(property "Reference" "C54"
+			(at 149.098 63.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAP CER 0.33UF 16V X7R 0603"
+			(at 122.174 66.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 156.21 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B334KO8NNNC/3887706"
+			(at 156.21 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.33 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 156.21 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "25079a13-abb6-48fc-bf29-0cb2ba711545")
+		)
+		(pin "1"
+			(uuid "582d4d58-c36e-4fd0-ba2a-20f3ae1461f9")
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 102.87 59.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a1046f5-02ce-4cdc-b4ec-3fb303a2f14b")
+		(property "Reference" "C13"
+			(at 105.41 58.4135 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CAP CER 0603 1NF 16V X7R 10%"
+			(at 105.41 60.9535 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 102.87 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C102K4RECAUTO/8640472"
+			(at 102.87 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1000 pF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 102.87 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b75c1d0a-cc77-4663-962b-b7225cbcaa5f")
+		)
+		(pin "1"
+			(uuid "f741496e-8176-4ced-bfaf-19fdcb134b1b")
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3082,7 +3174,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "RES 10 OHM 1% 1/10W 0603"
 			(at 129.54 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3092,7 +3184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 129.54 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3103,7 +3195,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0710RL/726879"
 			(at 129.54 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3114,7 +3206,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 129.54 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3141,8 +3233,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 171.45 33.02 0)
+		(lib_id "Device:R_Small_US")
+		(at 129.54 41.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3150,32 +3242,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fae8c3b-314a-4553-999f-bd52f25fd76e")
-		(property "Reference" "C9"
-			(at 173.99 31.7562 0)
+		(uuid "912aa16b-fab1-4f52-8110-6eb0dfdeb162")
+		(property "Reference" "R2"
+			(at 133.096 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "330nF"
-			(at 173.99 34.2962 0)
+		(property "Value" "RES 10 OHM 1% 1/10W 0603"
+			(at 129.54 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 171.45 33.02 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 129.54 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3185,8 +3274,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 171.45 33.02 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0710RL/726879"
+			(at 129.54 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3196,8 +3285,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 171.45 33.02 0)
+		(property "Description" "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 129.54 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3206,17 +3295,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "813ae68c-b06e-4f15-b378-a547edd1afdd")
 		)
 		(pin "2"
-			(uuid "cd9204f0-95b5-4bab-919d-ad0e9f517f23")
+			(uuid "23abf4e0-ca0e-4051-8d0a-e1f1e8712fa5")
+		)
+		(pin "1"
+			(uuid "983be7ed-dfc5-4967-a5a4-01513dc6d1f6")
 		)
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
-					(reference "C9")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3224,7 +3313,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 156.21 93.98 0)
+		(at 156.21 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3232,10 +3321,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a532d931-5f4b-4949-968b-110071cc70bc")
-		(property "Reference" "C5"
-			(at 158.75 92.7162 0)
+		(uuid "a28b08ec-62c9-4442-8592-5f82e941824f")
+		(property "Reference" "C59"
+			(at 149.098 136.144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3245,8 +3333,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330nF"
-			(at 158.75 95.2562 0)
+		(property "Value" "CAP CER 0.33UF 16V X7R 0603"
+			(at 122.174 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3256,8 +3344,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 156.21 93.98 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 156.21 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3267,8 +3355,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 156.21 93.98 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B334KO8NNNC/3887706"
+			(at 156.21 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3278,8 +3366,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 156.21 93.98 0)
+		(property "Description" "0.33 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 156.21 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3288,17 +3376,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "3f06c8ae-4e0c-4c6e-be09-7810fb9cb01e")
 		)
 		(pin "2"
-			(uuid "2c65c80a-8a81-48f7-b073-3957d6def383")
+			(uuid "c6cd3686-0b75-4e33-84ea-235d21752414")
+		)
+		(pin "1"
+			(uuid "ff2a95f9-bbe0-4a6e-8a8e-f91ebe84fd79")
 		)
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
-					(reference "C5")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -3377,88 +3465,6 @@
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 102.87 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1b05005-d163-4cb1-98c7-44ff39c220ff")
-		(property "Reference" "C2"
-			(at 105.41 58.4262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1nF"
-			(at 105.41 60.9662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 102.87 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d340ecac-40c8-461d-b80c-bf82b4321db1")
-		)
-		(pin "1"
-			(uuid "37afd5a8-c7cd-4885-b0ad-c52aa6cc4b9b")
-		)
-		(instances
-			(project "bms-afe"
-				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3544,88 +3550,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 156.21 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8bc7a7c-a4df-4004-bbf2-7fd4ef059757")
-		(property "Reference" "C6"
-			(at 158.75 105.4162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330nF"
-			(at 158.75 107.9562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 156.21 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76752dc2-d94d-43ca-b93f-e73d142105b6")
-		)
-		(pin "2"
-			(uuid "49faa8e2-b980-4cc7-84ad-95d530e2beb0")
-		)
-		(instances
-			(project "bms-afe"
-				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 156.21 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -3634,10 +3558,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da8834e6-afa9-475d-b22f-ea03747cf5ff")
-		(property "Reference" "C4"
-			(at 158.75 77.4762 0)
+		(uuid "d6c22ddb-3fce-40ee-9fb4-4d6d54abcdaf")
+		(property "Reference" "C55"
+			(at 149.098 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3647,8 +3570,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330nF"
-			(at 158.75 80.0162 0)
+		(property "Value" "CAP CER 0.33UF 16V X7R 0603"
+			(at 122.174 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3658,7 +3581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 156.21 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3669,7 +3592,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B334KO8NNNC/3887706"
 			(at 156.21 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3680,7 +3603,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.33 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 156.21 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3690,17 +3613,98 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "9c3a1bdb-add2-4962-acec-c0491ae44004")
 		)
 		(pin "2"
-			(uuid "15fa62c6-076d-41c6-bb1b-67089539ec60")
+			(uuid "0787a3c3-2bf9-4844-850e-f5cff1d7627a")
+		)
+		(pin "1"
+			(uuid "8613ac20-42a0-4b45-9324-088b1a45b047")
 		)
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
-					(reference "C4")
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 156.21 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2187328-0fc5-4af0-b3bb-4f78c33f020b")
+		(property "Reference" "C57"
+			(at 149.098 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAP CER 0.33UF 16V X7R 0603"
+			(at 122.174 108.204 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 156.21 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B334KO8NNNC/3887706"
+			(at 156.21 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.33 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 156.21 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b670e66b-ef72-4f61-85ab-d06f322c7a94")
+		)
+		(pin "1"
+			(uuid "8213a246-71f9-49bd-a1b4-3f44d88ec3cb")
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
+					(reference "C57")
 					(unit 1)
 				)
 			)
