@@ -3716,7 +3716,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ebcc5250-353a-4834-aaeb-c72216b6ceef")
 		(property "Reference" "#PWR01"
 			(at 102.87 54.61 0)
@@ -3730,7 +3729,7 @@
 			)
 		)
 		(property "Value" "BATGND"
-			(at 102.87 53.34 0)
+			(at 96.266 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

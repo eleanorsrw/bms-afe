@@ -917,9 +917,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Interface High (Points up to STM)"
+	(text "Interface High (Points up to STM OR next AFE if used in daisy chain)"
 		(exclude_from_sim no)
-		(at 164.592 63.5 0)
+		(at 171.196 65.278 0)
 		(effects
 			(font
 				(size 1.27 1.27)

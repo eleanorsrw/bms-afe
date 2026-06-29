@@ -982,9 +982,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "C3 = C_EMC (i used typical application)"
+	(text "= C_EMC (i used typical application)"
 		(exclude_from_sim no)
-		(at 145.542 114.3 0)
+		(at 144.78 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -992,7 +992,7 @@
 		)
 		(uuid "15ad3434-080e-4299-ad80-f4c8c96b5361")
 	)
-	(text "C2 is C_F, 100nF taken from typical application"
+	(text "C_F is placed on top level"
 		(exclude_from_sim no)
 		(at 209.042 94.742 0)
 		(effects
@@ -1002,19 +1002,9 @@
 		)
 		(uuid "222d8ced-3496-4484-b2eb-d050d1632a64")
 	)
-	(text "the typical application didn't include the zener or the current limiting resistor\ni just included it to clamp vgs"
+	(text "Bleed resistors"
 		(exclude_from_sim no)
-		(at 225.044 131.572 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "359f17c5-247b-4d15-abe5-398a717125d7")
-	)
-	(text "R6/R7 is R_balance"
-		(exclude_from_sim no)
-		(at 149.098 94.488 0)
+		(at 149.606 95.504 0)
 		(effects
 			(font
 				(size 1.27 1.27)
