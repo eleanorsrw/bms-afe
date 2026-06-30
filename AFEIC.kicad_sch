@@ -4932,6 +4932,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 297.18 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ef1fb7a-bee7-452e-a431-7e44a884125c")
+		(property "Reference" "C46"
+			(at 299.72 91.4462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 299.72 93.9862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 297.18 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RACTU/1465594"
+			(at 297.18 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 297.18 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bca332ac-998b-4e9b-8241-e82616ead702")
+		)
+		(pin "1"
+			(uuid "83a11354-2ead-45ac-bf52-e063f1e049cf")
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/0123e919-5cdb-453c-8cfd-f720a529864f"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 74.93 99.06 180)
 		(unit 1)
@@ -5094,7 +5176,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 297.18 92.71 0)
+		(at 308.61 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5102,32 +5184,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fb4ebeb-6588-41d1-8996-9918e9f14f60")
-		(property "Reference" "C47"
-			(at 299.72 91.4462 0)
+		(uuid "23350ce8-d72b-4bd7-be0c-b8f4602ed74b")
+		(property "Reference" "C22"
+			(at 315.214 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 299.72 93.9862 0)
+		(property "Value" "1000pF"
+			(at 318.77 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 297.18 92.71 0)
+			(at 308.61 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5137,8 +5218,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K3RACTU/416044"
-			(at 297.18 92.71 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B102KB8NNNC/3886676"
+			(at 308.61 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5148,8 +5229,8 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X7R 0603"
-			(at 297.18 92.71 0)
+		(property "Description" "CAP CER 1000PF 50V X7R 0603"
+			(at 308.61 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5160,10 +5241,92 @@
 			)
 		)
 		(pin "2"
-			(uuid "0b5c689b-20b9-4749-a176-6963b6312fd6")
+			(uuid "6ed79534-2d1a-4b73-8592-98d1d8743f49")
 		)
 		(pin "1"
-			(uuid "c2af398a-0713-490c-af91-6e5222301113")
+			(uuid "98a4aa60-e4e0-4460-8ed6-163662f4a0bf")
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/0123e919-5cdb-453c-8cfd-f720a529864f"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 323.85 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34700677-4938-4710-9613-9ef8a5628919")
+		(property "Reference" "C47"
+			(at 326.39 91.4462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 326.39 93.9862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 323.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RACTU/1465594"
+			(at 323.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 323.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cf7b2360-865a-4713-ba69-7b841a639547")
+		)
+		(pin "1"
+			(uuid "b6c78b1c-4b43-49ab-a4d2-1ce871ba85a8")
 		)
 		(instances
 			(project "bms-afe"
@@ -6570,7 +6733,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K3RACTU/416044"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 271.78 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6581,7 +6744,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X7R 0603"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 271.78 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7003,6 +7166,88 @@
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/0123e919-5cdb-453c-8cfd-f720a529864f"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 283.21 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cef23b5-7dc1-41c0-ac92-207f86aef263")
+		(property "Reference" "C45"
+			(at 285.75 91.4462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 285.75 93.9862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 283.21 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RACTU/1465594"
+			(at 283.21 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 283.21 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "da3b66b2-3139-4997-9ac7-f3828fd70c7c")
+		)
+		(pin "1"
+			(uuid "f4caa7f0-df12-4c52-a18e-e77532504a19")
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/0123e919-5cdb-453c-8cfd-f720a529864f"
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -8077,88 +8322,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 308.61 92.71 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afe95872-cc9e-489b-80bc-34768d031f14")
-		(property "Reference" "C32"
-			(at 311.15 91.4335 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1nF"
-			(at 311.15 93.9735 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 308.61 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C102K4RECAUTO/8640472"
-			(at 308.61 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP CER 0603 1NF 16V X7R 10%"
-			(at 308.61 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "24486e88-64b1-4b38-9d81-7cf3e6cf4170")
-		)
-		(pin "1"
-			(uuid "9696f0f6-1191-49d7-9e01-73c3ca763a92")
-		)
-		(instances
-			(project "bms-afe"
-				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/0123e919-5cdb-453c-8cfd-f720a529864f"
-					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 176.53 99.06 0)
 		(unit 1)
@@ -8904,87 +9067,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 323.85 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "be78b8f9-9f53-41a0-a91a-2afb37675eee")
-		(property "Reference" "C46"
-			(at 326.39 91.4462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 324.612 96.012 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 323.85 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K3RACTU/416044"
-			(at 323.85 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X7R 0603"
-			(at 323.85 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d98b6541-7401-4c01-a8f6-b244d912c020")
-		)
-		(pin "1"
-			(uuid "15c4aa46-e805-46b5-8dde-58fb26c1d4e5")
-		)
-		(instances
-			(project "bms-afe"
-				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/0123e919-5cdb-453c-8cfd-f720a529864f"
-					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 337.82 106.68 0)
 		(unit 1)
@@ -9686,88 +9768,6 @@
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/0123e919-5cdb-453c-8cfd-f720a529864f"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 283.21 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e368608f-ec09-407f-92b9-05de6eb618ec")
-		(property "Reference" "C45"
-			(at 285.75 91.4462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 285.75 93.9862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 283.21 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K3RACTU/416044"
-			(at 283.21 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X7R 0603"
-			(at 283.21 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b270e231-92b4-40ab-b031-183f24143171")
-		)
-		(pin "1"
-			(uuid "17a47b89-1450-4c1d-ba0b-93140744f485")
-		)
-		(instances
-			(project "bms-afe"
-				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/0123e919-5cdb-453c-8cfd-f720a529864f"
-					(reference "C45")
 					(unit 1)
 				)
 			)

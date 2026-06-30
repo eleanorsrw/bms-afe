@@ -2679,6 +2679,87 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 102.87 60.96 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f0efa9a-46c3-4f5a-99a8-6848a5e5bd99")
+		(property "Reference" "C13"
+			(at 96.52 58.928 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CAP CER 1000PF 50V X7R 0603"
+			(at 67.818 61.468 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 102.87 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B102KB8NNNC/3886676"
+			(at 102.87 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 102.87 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aec021ae-8a74-4bff-8828-6eb45e959097")
+		)
+		(pin "1"
+			(uuid "1d91d1fc-9d10-4ce1-b11a-a320ceac35c3")
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 186.69 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -2858,7 +2939,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAP CER 0603 1NF 16V X7R 10%"
+		(property "Value" "CAP CER 1000PF 50V X7R 0603"
 			(at 67.818 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2880,7 +2961,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C102K4RECAUTO/8640472"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B102KB8NNNC/3886676"
 			(at 102.87 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -2891,7 +2972,7 @@
 				)
 			)
 		)
-		(property "Description" "1000 pF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "1000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 102.87 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -2939,7 +3020,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CAP CER 0.33UF 16V X7R 0603"
+		(property "Value" "CAP CER 0.33UF 25V X7R 0603"
 			(at 187.198 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2961,7 +3042,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B334KO8NNNC/3887706"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/w%C3%BCrth-elektronik/885012206074/5453847"
 			(at 184.15 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2972,7 +3053,7 @@
 				)
 			)
 		)
-		(property "Description" "0.33 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.33 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 184.15 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3074,87 +3155,6 @@
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
 					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 102.87 60.96 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8a1046f5-02ce-4cdc-b4ec-3fb303a2f14b")
-		(property "Reference" "C13"
-			(at 95.504 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CAP CER 0603 1NF 16V X7R 10%"
-			(at 67.056 62.484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 102.87 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C102K4RECAUTO/8640472"
-			(at 102.87 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1000 pF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 102.87 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b75c1d0a-cc77-4663-962b-b7225cbcaa5f")
-		)
-		(pin "1"
-			(uuid "f741496e-8176-4ced-bfaf-19fdcb134b1b")
-		)
-		(instances
-			(project "bms-afe"
-				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
-					(reference "C13")
 					(unit 1)
 				)
 			)
