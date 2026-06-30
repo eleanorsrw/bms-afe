@@ -984,7 +984,7 @@
 	)
 	(text "= C_EMC (i used typical application)"
 		(exclude_from_sim no)
-		(at 144.78 109.22 0)
+		(at 143.51 127.762 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -994,7 +994,7 @@
 	)
 	(text "C_F is placed on top level"
 		(exclude_from_sim no)
-		(at 209.042 94.742 0)
+		(at 217.678 96.266 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1004,7 +1004,7 @@
 	)
 	(text "Bleed resistors"
 		(exclude_from_sim no)
-		(at 149.606 95.504 0)
+		(at 149.606 96.774 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1013,68 +1013,68 @@
 		(uuid "48fc1a5a-25f7-44f6-a17d-40695a5d4cfa")
 	)
 	(junction
-		(at 168.91 83.82)
+		(at 182.88 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "13fcd343-e979-43bf-8c34-158f03bc914e")
+		(uuid "0a49bd46-2dc4-46b0-bb80-b09432fc4156")
 	)
 	(junction
-		(at 135.89 72.39)
+		(at 135.89 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19ea29b9-c277-48ce-b025-f900563f9c90")
 	)
 	(junction
-		(at 135.89 102.87)
+		(at 182.88 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "288b55b6-546b-49b9-82ec-edb62b62df30")
+		(uuid "3747ef16-fc71-4f2a-b8d4-d21336bbd9a5")
 	)
 	(junction
-		(at 135.89 95.25)
+		(at 135.89 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "54fe5a8e-2e0e-4c41-bfc5-974a52de8fc5")
+		(uuid "4e1541ae-96dd-413f-841a-b9d5d0930fca")
 	)
 	(junction
-		(at 168.91 105.41)
+		(at 135.89 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "550851ff-3281-4ace-a9d2-208ee202715b")
+		(uuid "502bc909-649c-48ca-9f2f-b69aa05db8db")
 	)
 	(junction
-		(at 119.38 105.41)
+		(at 119.38 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71269c8a-cfe4-4884-9a04-668960d695ba")
 	)
 	(junction
-		(at 135.89 105.41)
+		(at 135.89 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71b35098-2335-4a89-bf15-9832eb5181a3")
 	)
 	(junction
-		(at 129.54 102.87)
+		(at 129.54 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dfb8ebd-b6ed-4767-82c3-783f9d7076ee")
 	)
 	(junction
-		(at 160.02 83.82)
+		(at 160.02 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce664b51-49d5-4199-86fb-8865ea0bbb95")
 	)
 	(junction
-		(at 129.54 95.25)
+		(at 129.54 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecb30d42-6262-47b1-bd43-3d7ec7f220cf")
 	)
 	(wire
 		(pts
-			(xy 135.89 72.39) (xy 146.05 72.39)
+			(xy 135.89 66.04) (xy 146.05 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1084,7 +1084,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 96.52) (xy 168.91 105.41)
+			(xy 182.88 99.06) (xy 182.88 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1094,7 +1094,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 102.87) (xy 135.89 105.41)
+			(xy 135.89 104.14) (xy 135.89 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1104,7 +1104,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 88.9) (xy 135.89 95.25)
+			(xy 182.88 77.47) (xy 189.23 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1565522c-e1cf-456f-bb81-74007e50d30c")
+	)
+	(wire
+		(pts
+			(xy 135.89 82.55) (xy 135.89 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1114,7 +1124,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 102.87) (xy 129.54 102.87)
+			(xy 114.3 104.14) (xy 129.54 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1124,7 +1134,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 72.39) (xy 135.89 72.39)
+			(xy 110.49 66.04) (xy 135.89 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1134,7 +1144,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 95.25) (xy 129.54 96.52)
+			(xy 129.54 96.52) (xy 129.54 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1144,7 +1154,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 113.03) (xy 119.38 111.76)
+			(xy 119.38 127) (xy 119.38 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1154,7 +1164,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 105.41) (xy 149.86 105.41)
+			(xy 135.89 119.38) (xy 149.86 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1164,7 +1174,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 105.41) (xy 119.38 105.41)
+			(xy 110.49 119.38) (xy 119.38 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1174,7 +1184,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 95.25) (xy 140.97 96.52)
+			(xy 140.97 96.52) (xy 140.97 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1184,7 +1194,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 95.25) (xy 140.97 95.25)
+			(xy 135.89 96.52) (xy 140.97 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1194,7 +1204,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 102.87) (xy 135.89 102.87)
+			(xy 129.54 104.14) (xy 135.89 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1204,7 +1214,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 102.87) (xy 140.97 102.87)
+			(xy 135.89 104.14) (xy 140.97 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1214,7 +1224,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 119.38 105.41)
+			(xy 182.88 119.38) (xy 189.23 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e97e229-0dd3-4a23-bc09-5ada0b6b07fc")
+	)
+	(wire
+		(pts
+			(xy 119.38 120.65) (xy 119.38 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1224,7 +1244,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 72.39) (xy 160.02 72.39)
+			(xy 151.13 66.04) (xy 160.02 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1234,7 +1254,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 72.39) (xy 135.89 78.74)
+			(xy 135.89 66.04) (xy 135.89 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1244,7 +1264,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 101.6) (xy 129.54 102.87)
+			(xy 129.54 102.87) (xy 129.54 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1254,17 +1274,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 83.82) (xy 189.23 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8979cc4d-26af-46e3-b8d1-1a74b2e8c27c")
-	)
-	(wire
-		(pts
-			(xy 119.38 105.41) (xy 135.89 105.41)
+			(xy 119.38 119.38) (xy 135.89 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1274,7 +1284,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 72.39) (xy 160.02 83.82)
+			(xy 160.02 66.04) (xy 160.02 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1284,17 +1294,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 105.41) (xy 189.23 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "918f1b3b-db22-4ed0-b5b8-418d7049378a")
-	)
-	(wire
-		(pts
-			(xy 140.97 102.87) (xy 140.97 101.6)
+			(xy 140.97 104.14) (xy 140.97 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1304,7 +1304,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 105.41) (xy 168.91 105.41)
+			(xy 154.94 119.38) (xy 182.88 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1314,7 +1314,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 95.25) (xy 119.38 95.25)
+			(xy 114.3 96.52) (xy 119.38 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1324,7 +1324,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 83.82) (xy 160.02 83.82)
+			(xy 160.02 77.47) (xy 182.88 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1334,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 83.82) (xy 160.02 83.82)
+			(xy 143.51 77.47) (xy 160.02 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1344,7 +1344,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 83.82) (xy 168.91 91.44)
+			(xy 182.88 77.47) (xy 182.88 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1354,7 +1354,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 95.25) (xy 129.54 95.25)
+			(xy 124.46 96.52) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1364,7 +1364,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 95.25) (xy 129.54 95.25)
+			(xy 135.89 96.52) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1374,7 +1374,7 @@
 	)
 	(hierarchical_label "U"
 		(shape input)
-		(at 189.23 105.41 0)
+		(at 189.23 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1385,7 +1385,7 @@
 	)
 	(hierarchical_label "Battery_Neg"
 		(shape output)
-		(at 110.49 105.41 180)
+		(at 110.49 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1396,7 +1396,7 @@
 	)
 	(hierarchical_label "G"
 		(shape output)
-		(at 189.23 83.82 0)
+		(at 189.23 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1407,7 +1407,7 @@
 	)
 	(hierarchical_label "Battery_Pos"
 		(shape output)
-		(at 110.49 72.39 180)
+		(at 110.49 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1418,7 +1418,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 168.91 93.98 0)
+		(at 182.88 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1429,7 +1429,7 @@
 		(fields_autoplaced yes)
 		(uuid "10ad7e9a-8f2f-48fd-b521-78524d014943")
 		(property "Reference" "C35"
-			(at 171.45 92.7162 0)
+			(at 185.42 95.2562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1440,7 +1440,7 @@
 			)
 		)
 		(property "Value" "CAP CER 0.1UF 25V X7R 0603"
-			(at 171.45 95.2562 0)
+			(at 185.42 97.7962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1451,7 +1451,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 168.91 93.98 0)
+			(at 182.88 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1462,7 +1462,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K3RACTU/416044"
-			(at 168.91 93.98 0)
+			(at 182.88 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1473,7 +1473,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 168.91 93.98 0)
+			(at 182.88 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1520,7 +1520,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 119.38 113.03 0)
+		(at 119.38 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1531,7 +1531,7 @@
 		(fields_autoplaced yes)
 		(uuid "332a81ed-6a0c-4c30-8b63-3de228577771")
 		(property "Reference" "#PWR07"
-			(at 119.38 119.38 0)
+			(at 119.38 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1542,7 +1542,7 @@
 			)
 		)
 		(property "Value" "BATGND"
-			(at 119.38 118.11 0)
+			(at 119.38 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1552,7 +1552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 113.03 0)
+			(at 119.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1563,7 +1563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 113.03 0)
+			(at 119.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1574,7 +1574,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 119.38 113.03 0)
+			(at 119.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1618,7 +1618,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 121.92 95.25 90)
+		(at 121.92 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1626,10 +1626,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "349063b7-0eff-4eff-9ac1-9283734d89e9")
 		(property "Reference" "R45"
-			(at 121.92 88.9 90)
+			(at 121.158 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1639,7 +1638,7 @@
 			)
 		)
 		(property "Value" "RES SMD 487 OHM 1% 1/10W 0603"
-			(at 121.92 91.44 90)
+			(at 108.458 93.218 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1649,7 +1648,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 121.92 95.25 0)
+			(at 121.92 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1660,7 +1659,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-industry/ERJ-3EKF4870V/196376"
-			(at 121.92 95.25 0)
+			(at 121.92 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1671,7 +1670,7 @@
 			)
 		)
 		(property "Description" "487 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 121.92 95.25 0)
+			(at 121.92 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1718,7 +1717,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 152.4 105.41 90)
+		(at 152.4 119.38 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1728,7 +1727,7 @@
 		(dnp no)
 		(uuid "3d23a016-b4e8-4729-a926-55e7ab96805c")
 		(property "Reference" "R9"
-			(at 155.956 102.87 90)
+			(at 152.4 114.554 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1738,7 +1737,7 @@
 			)
 		)
 		(property "Value" "RES 10 OHM 1% 1/10W 0603"
-			(at 152.4 102.87 90)
+			(at 152.4 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1748,7 +1747,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 152.4 105.41 0)
+			(at 152.4 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1759,7 +1758,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RC0603FR-0710RL/726879"
-			(at 152.4 105.41 0)
+			(at 152.4 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1770,7 +1769,7 @@
 			)
 		)
 		(property "Description" "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 152.4 105.41 0)
+			(at 152.4 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1817,7 +1816,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.3 99.06 90)
+		(at 114.3 100.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1825,10 +1824,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "45793544-0e11-4f45-bf7a-f914fbc054b0")
 		(property "Reference" "D1"
-			(at 118.11 99.3774 90)
+			(at 109.474 100.076 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1839,7 +1837,7 @@
 			)
 		)
 		(property "Value" "1.6X0.8MM RED/WHT SMD LED"
-			(at 118.11 101.9174 90)
+			(at 82.55 102.362 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1850,7 +1848,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 114.3 99.06 0)
+			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1861,7 +1859,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/para-light/LC295JRWDT-5A-U1/26692441"
-			(at 114.3 99.06 0)
+			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1872,7 +1870,7 @@
 			)
 		)
 		(property "Description" "Red, White 630nm LED Indication - Discrete 1.8V Red, 2.9V White 0603 (1608 Metric)"
-			(at 114.3 99.06 0)
+			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1883,7 +1881,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 99.06 0)
+			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1930,7 +1928,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 119.38 109.22 180)
+		(at 119.38 123.19 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1941,7 +1939,7 @@
 		(fields_autoplaced yes)
 		(uuid "542bcbfe-3539-458a-b262-6114476e4bb8")
 		(property "Reference" "C10"
-			(at 121.92 107.9435 0)
+			(at 121.92 121.9135 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1952,7 +1950,7 @@
 			)
 		)
 		(property "Value" "CAP CER 0603 1NF 16V X7R 10%"
-			(at 121.92 110.4835 0)
+			(at 121.92 124.4535 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1963,7 +1961,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 119.38 109.22 0)
+			(at 119.38 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1974,7 +1972,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C0603C102K4RECAUTO/8640472"
-			(at 119.38 109.22 0)
+			(at 119.38 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1985,7 +1983,7 @@
 			)
 		)
 		(property "Description" "1000 pF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 119.38 109.22 0)
+			(at 119.38 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2032,7 +2030,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 148.59 72.39 270)
+		(at 148.59 66.04 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2043,7 +2041,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcb0dfe5-b577-449b-abdc-479bc61a1553")
 		(property "Reference" "R8"
-			(at 148.59 66.04 90)
+			(at 148.59 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2053,7 +2051,7 @@
 			)
 		)
 		(property "Value" "RES SMD 8.2 OHM 1% 1/8W 0603"
-			(at 148.59 68.58 90)
+			(at 148.59 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2063,7 +2061,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 148.59 72.39 0)
+			(at 148.59 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2074,7 +2072,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW06038R20FKEA/1961641"
-			(at 148.59 72.39 0)
+			(at 148.59 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2085,7 +2083,7 @@
 			)
 		)
 		(property "Description" "8.2 Ohms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 148.59 72.39 0)
+			(at 148.59 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2132,7 +2130,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 140.97 99.06 0)
+		(at 140.97 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2143,7 +2141,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4a8d4b7-e69f-4efa-a593-ee82c1f60a12")
 		(property "Reference" "R7"
-			(at 143.51 97.7899 0)
+			(at 143.51 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2154,7 +2152,7 @@
 			)
 		)
 		(property "Value" "RES SMD 52.3 OHM 1% 1/2W 1210"
-			(at 143.51 100.3299 0)
+			(at 143.51 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2165,7 +2163,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 140.97 99.06 0)
+			(at 140.97 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2176,7 +2174,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW121052R3FKEA/1197971"
-			(at 140.97 99.06 0)
+			(at 140.97 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2187,7 +2185,7 @@
 			)
 		)
 		(property "Description" "52.3 Ohms ±1% 0.5W, 1/2W Chip Resistor 1210 (3225 Metric) Automotive AEC-Q200 Thick Film"
-			(at 140.97 99.06 0)
+			(at 140.97 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2234,7 +2232,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GSF0304")
-		(at 138.43 83.82 180)
+		(at 138.43 77.47 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2245,7 +2243,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4e525b5-5034-4619-bf5d-8f0d7f5d353a")
 		(property "Reference" "GSF1"
-			(at 132.08 82.5499 0)
+			(at 132.08 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2256,7 +2254,7 @@
 			)
 		)
 		(property "Value" "MOSFET, P-CH, SINGLE, -4.1A, -30"
-			(at 132.08 85.0899 0)
+			(at 132.08 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2267,7 +2265,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 133.35 81.915 0)
+			(at 133.35 75.565 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2280,7 +2278,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/good-ark-semiconductor/GSF0304/18668026"
-			(at 133.35 80.01 0)
+			(at 133.35 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2292,7 +2290,7 @@
 			)
 		)
 		(property "Description" "P-Channel 30 V 4.1A (Ta) 1.4W (Ta) Surface Mount SOT-23"
-			(at 138.43 83.82 0)
+			(at 138.43 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2342,7 +2340,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 129.54 99.06 0)
+		(at 129.54 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2350,10 +2348,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f6ab6a5f-15c2-4738-a7d5-d98f3a9c4de7")
 		(property "Reference" "R6"
-			(at 132.08 97.7899 0)
+			(at 128.27 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2364,7 +2361,7 @@
 			)
 		)
 		(property "Value" "RES SMD 52.3 OHM 1% 1/2W 1210"
-			(at 132.08 100.3299 0)
+			(at 96.52 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2375,7 +2372,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 129.54 99.06 0)
+			(at 129.54 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2386,7 +2383,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW121052R3FKEA/1197971"
-			(at 129.54 99.06 0)
+			(at 129.54 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2397,7 +2394,7 @@
 			)
 		)
 		(property "Description" "52.3 Ohms ±1% 0.5W, 1/2W Chip Resistor 1210 (3225 Metric) Automotive AEC-Q200 Thick Film"
-			(at 129.54 99.06 0)
+			(at 129.54 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
