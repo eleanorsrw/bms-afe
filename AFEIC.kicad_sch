@@ -2545,7 +2545,7 @@
 	)
 	(text "For IFH_H/IFH_L's termination resistors:\nIf daisy chain is used, then desolder resistors\nIf daisy chain is not used, solder resistors"
 		(exclude_from_sim no)
-		(at 78.232 118.872 0)
+		(at 70.866 119.126 0)
 		(effects
 			(font
 				(size 1.27 1.27)
