@@ -982,9 +982,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "= C_EMC (i used typical application)"
+	(text "= C_EMC (typical application)\nDNP for first balancing line"
 		(exclude_from_sim no)
-		(at 143.51 127.762 0)
+		(at 138.684 124.714 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1428,7 +1428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10ad7e9a-8f2f-48fd-b521-78524d014943")
-		(property "Reference" "C35"
+		(property "Reference" "C10"
 			(at 185.42 95.2562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1492,27 +1492,27 @@
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/199aea63-5bfb-41be-ba55-0a021bc0a074"
-					(reference "C39")
+					(reference "C34")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/2aa084bd-01e7-47e5-8f6d-30b4f325d7f4"
-					(reference "C37")
+					(reference "C12")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/30f9ba51-47e3-4adb-895f-80ddd8089ec1"
-					(reference "C42")
+					(reference "C38")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/9ef805d4-1601-4480-b9fd-3e26be539576"
-					(reference "C43")
+					(reference "C40")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/a6f93463-0553-4e94-825f-86704d73fcd7"
-					(reference "C35")
+					(reference "C10")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/cf97efbe-7ee9-4abe-8844-0d879c082204"
-					(reference "C41")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -1530,7 +1530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "332a81ed-6a0c-4c30-8b63-3de228577771")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 119.38 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -1590,27 +1590,27 @@
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/199aea63-5bfb-41be-ba55-0a021bc0a074"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/2aa084bd-01e7-47e5-8f6d-30b4f325d7f4"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/30f9ba51-47e3-4adb-895f-80ddd8089ec1"
-					(reference "#PWR035")
+					(reference "#PWR033")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/9ef805d4-1601-4480-b9fd-3e26be539576"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/a6f93463-0553-4e94-825f-86704d73fcd7"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/cf97efbe-7ee9-4abe-8844-0d879c082204"
-					(reference "#PWR034")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1627,7 +1627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "349063b7-0eff-4eff-9ac1-9283734d89e9")
-		(property "Reference" "R45"
+		(property "Reference" "R6"
 			(at 121.158 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1689,27 +1689,27 @@
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/199aea63-5bfb-41be-ba55-0a021bc0a074"
-					(reference "R47")
+					(reference "R31")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/2aa084bd-01e7-47e5-8f6d-30b4f325d7f4"
-					(reference "R46")
+					(reference "R11")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/30f9ba51-47e3-4adb-895f-80ddd8089ec1"
-					(reference "R49")
+					(reference "R41")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/9ef805d4-1601-4480-b9fd-3e26be539576"
-					(reference "R50")
+					(reference "R46")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/a6f93463-0553-4e94-825f-86704d73fcd7"
-					(reference "R45")
+					(reference "R6")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/cf97efbe-7ee9-4abe-8844-0d879c082204"
-					(reference "R48")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -1726,7 +1726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d23a016-b4e8-4729-a926-55e7ab96805c")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 152.4 114.554 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1788,27 +1788,27 @@
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/199aea63-5bfb-41be-ba55-0a021bc0a074"
-					(reference "R32")
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/2aa084bd-01e7-47e5-8f6d-30b4f325d7f4"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/30f9ba51-47e3-4adb-895f-80ddd8089ec1"
-					(reference "R40")
+					(reference "R45")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/9ef805d4-1601-4480-b9fd-3e26be539576"
-					(reference "R44")
+					(reference "R50")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/a6f93463-0553-4e94-825f-86704d73fcd7"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/cf97efbe-7ee9-4abe-8844-0d879c082204"
-					(reference "R36")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -1938,7 +1938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcb0dfe5-b577-449b-abdc-479bc61a1553")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 148.59 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2000,27 +2000,27 @@
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/199aea63-5bfb-41be-ba55-0a021bc0a074"
-					(reference "R31")
+					(reference "R34")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/2aa084bd-01e7-47e5-8f6d-30b4f325d7f4"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/30f9ba51-47e3-4adb-895f-80ddd8089ec1"
-					(reference "R39")
+					(reference "R44")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/9ef805d4-1601-4480-b9fd-3e26be539576"
-					(reference "R43")
+					(reference "R49")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/a6f93463-0553-4e94-825f-86704d73fcd7"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/cf97efbe-7ee9-4abe-8844-0d879c082204"
-					(reference "R35")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -2037,7 +2037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be95fae5-5b02-41df-9864-bfd2e96fd12b")
-		(property "Reference" "C12"
+		(property "Reference" "C9"
 			(at 113.03 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2101,27 +2101,27 @@
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/199aea63-5bfb-41be-ba55-0a021bc0a074"
-					(reference "C31")
-					(unit 1)
-				)
-				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/2aa084bd-01e7-47e5-8f6d-30b4f325d7f4"
-					(reference "C26")
-					(unit 1)
-				)
-				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/30f9ba51-47e3-4adb-895f-80ddd8089ec1"
 					(reference "C33")
 					(unit 1)
 				)
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/2aa084bd-01e7-47e5-8f6d-30b4f325d7f4"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/30f9ba51-47e3-4adb-895f-80ddd8089ec1"
+					(reference "C37")
+					(unit 1)
+				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/9ef805d4-1601-4480-b9fd-3e26be539576"
-					(reference "C34")
+					(reference "C39")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/a6f93463-0553-4e94-825f-86704d73fcd7"
-					(reference "C12")
+					(reference "C9")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/cf97efbe-7ee9-4abe-8844-0d879c082204"
-					(reference "C32")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -2139,7 +2139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4a8d4b7-e69f-4efa-a593-ee82c1f60a12")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 143.51 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2203,27 +2203,27 @@
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/199aea63-5bfb-41be-ba55-0a021bc0a074"
-					(reference "R30")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/2aa084bd-01e7-47e5-8f6d-30b4f325d7f4"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/30f9ba51-47e3-4adb-895f-80ddd8089ec1"
-					(reference "R38")
+					(reference "R43")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/9ef805d4-1601-4480-b9fd-3e26be539576"
-					(reference "R42")
+					(reference "R48")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/a6f93463-0553-4e94-825f-86704d73fcd7"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/cf97efbe-7ee9-4abe-8844-0d879c082204"
-					(reference "R34")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -2348,7 +2348,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6ab6a5f-15c2-4738-a7d5-d98f3a9c4de7")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 128.27 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2412,27 +2412,27 @@
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/199aea63-5bfb-41be-ba55-0a021bc0a074"
-					(reference "R29")
+					(reference "R32")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/2aa084bd-01e7-47e5-8f6d-30b4f325d7f4"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/30f9ba51-47e3-4adb-895f-80ddd8089ec1"
-					(reference "R37")
+					(reference "R42")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/9ef805d4-1601-4480-b9fd-3e26be539576"
-					(reference "R41")
+					(reference "R47")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/a6f93463-0553-4e94-825f-86704d73fcd7"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/cf97efbe-7ee9-4abe-8844-0d879c082204"
-					(reference "R33")
+					(reference "R37")
 					(unit 1)
 				)
 			)

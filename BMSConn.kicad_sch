@@ -1368,7 +1368,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "085c9d18-a67d-42c3-aaa9-26d3c17d008b")
-		(property "Reference" "R51"
+		(property "Reference" "R3"
 			(at 158.242 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1443,7 +1443,7 @@
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/6d53ec20-967d-414a-950d-119f66d4f6c2"
-					(reference "R51")
+					(reference "R3")
 					(unit 1)
 				)
 			)
