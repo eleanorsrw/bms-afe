@@ -9783,7 +9783,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ebf360c8-356d-4ff4-99b3-e534f8f7c06d")
 		(property "Reference" "#PWR013"
 			(at 151.13 205.74 0)
@@ -9796,14 +9795,15 @@
 				)
 			)
 		)
-		(property "Value" "BAT_GND"
-			(at 151.13 204.47 0)
+		(property "Value" "BATGND"
+			(at 147.574 203.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
