@@ -5199,7 +5199,7 @@
 				(justify left)
 			)
 		)
-		(pin "IFL_L" input
+		(pin "IFL_N" input
 			(at 229.87 66.04 0)
 			(uuid "c15dd3aa-0af4-4d1e-919a-0472f9595fd2")
 			(effects
@@ -5209,7 +5209,7 @@
 				(justify right)
 			)
 		)
-		(pin "IFL_H" input
+		(pin "IFL_P" input
 			(at 229.87 63.5 0)
 			(uuid "5795ab6b-5cfd-4868-85f1-ac850be9b46b")
 			(effects
@@ -5229,7 +5229,7 @@
 				(justify left)
 			)
 		)
-		(pin "IFH_H" input
+		(pin "IFH_P" input
 			(at 229.87 72.39 0)
 			(uuid "14e0211d-1860-4059-b876-994bc478d257")
 			(effects
@@ -5239,7 +5239,7 @@
 				(justify right)
 			)
 		)
-		(pin "IFH_L" input
+		(pin "IFH_N" input
 			(at 229.87 74.93 0)
 			(uuid "1b1cb661-7627-446d-b97b-5b11c4c43626")
 			(effects
@@ -5563,7 +5563,7 @@
 				(justify left top)
 			)
 		)
-		(pin "IFH_L" input
+		(pin "IFH_N" input
 			(at 241.3 74.93 180)
 			(uuid "bc3636ed-5e0a-4e8a-85f4-93ab13f01ded")
 			(effects
@@ -5573,7 +5573,7 @@
 				(justify left)
 			)
 		)
-		(pin "IFH_H" input
+		(pin "IFH_P" input
 			(at 241.3 72.39 180)
 			(uuid "f34043d5-0fb4-4f29-b8f6-355689bf6295")
 			(effects
@@ -5583,7 +5583,7 @@
 				(justify left)
 			)
 		)
-		(pin "IFL_L" input
+		(pin "IFL_N" input
 			(at 241.3 66.04 180)
 			(uuid "75544af6-87ca-4e25-bea1-74bfcc548960")
 			(effects
@@ -5593,7 +5593,7 @@
 				(justify left)
 			)
 		)
-		(pin "IFL_H" input
+		(pin "IFL_P" input
 			(at 241.3 63.5 180)
 			(uuid "8a62b7ab-f550-435d-8208-f1c664715251")
 			(effects

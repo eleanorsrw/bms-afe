@@ -1313,7 +1313,7 @@
 		)
 		(uuid "faac6860-c679-431d-9a09-13e94dcb724c")
 	)
-	(hierarchical_label "IFL_L"
+	(hierarchical_label "IFL_N"
 		(shape input)
 		(at 148.59 97.79 180)
 		(effects
@@ -1324,7 +1324,7 @@
 		)
 		(uuid "52e46577-df1c-4e21-80cd-f74d2db5d28c")
 	)
-	(hierarchical_label "IFL_H"
+	(hierarchical_label "IFL_P"
 		(shape input)
 		(at 148.59 87.63 180)
 		(effects
@@ -1335,7 +1335,7 @@
 		)
 		(uuid "663aee2a-cb1e-40f8-a9cc-43e81eb51d2d")
 	)
-	(hierarchical_label "IFH_L"
+	(hierarchical_label "IFH_N"
 		(shape input)
 		(at 83.82 92.71 0)
 		(effects
@@ -1346,7 +1346,7 @@
 		)
 		(uuid "be548b2b-90e3-4b3c-ae8a-c464502cad01")
 	)
-	(hierarchical_label "IFH_H"
+	(hierarchical_label "IFH_P"
 		(shape input)
 		(at 83.82 90.17 0)
 		(effects

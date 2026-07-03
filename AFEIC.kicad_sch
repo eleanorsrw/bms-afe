@@ -4465,7 +4465,7 @@
 		)
 		(uuid "2cb2b398-5bd4-4f50-8c7c-4a57c04a87f7")
 	)
-	(label "IFL_H_Filt"
+	(label "IFL_Filt_P"
 		(at 139.7 166.37 180)
 		(effects
 			(font
@@ -4495,7 +4495,7 @@
 		)
 		(uuid "530114da-92f8-46b9-bcda-e4ac84a48c77")
 	)
-	(label "IFH_L_Filt"
+	(label "IFH_Filt_N"
 		(at 72.39 91.44 180)
 		(effects
 			(font
@@ -4505,7 +4505,7 @@
 		)
 		(uuid "5535f3ed-b7b9-458c-a35c-37b6ebe49f3f")
 	)
-	(label "IFH_L_Filt"
+	(label "IFH_Filt_N"
 		(at 82.55 166.37 0)
 		(effects
 			(font
@@ -4515,7 +4515,7 @@
 		)
 		(uuid "6ba69274-7002-405b-b08d-bfbc4918c9ad")
 	)
-	(label "IFL_L_Filt"
+	(label "IFL_Filt_N"
 		(at 139.7 189.23 180)
 		(effects
 			(font
@@ -4525,7 +4525,7 @@
 		)
 		(uuid "6be5950c-2f2e-49ae-8f76-808185407b4c")
 	)
-	(label "IFH_H_Filt"
+	(label "IFH_Filt_P"
 		(at 59.69 88.9 180)
 		(effects
 			(font
@@ -4545,7 +4545,7 @@
 		)
 		(uuid "7bf99ded-8b95-4e2d-9352-f03e8012a06c")
 	)
-	(label "IFH_H_Filt"
+	(label "IFH_Filt_P"
 		(at 82.55 191.77 0)
 		(effects
 			(font
@@ -4685,7 +4685,7 @@
 		)
 		(uuid "8decaa5b-5197-43c5-a4a9-ce648642b1ec")
 	)
-	(hierarchical_label "IFH_L"
+	(hierarchical_label "IFH_N"
 		(shape input)
 		(at 62.23 166.37 180)
 		(effects
@@ -4718,7 +4718,7 @@
 		)
 		(uuid "aee61601-7574-4e25-a198-64da563570a1")
 	)
-	(hierarchical_label "IFL_L"
+	(hierarchical_label "IFL_N"
 		(shape input)
 		(at 161.29 189.23 0)
 		(effects
@@ -4740,7 +4740,7 @@
 		)
 		(uuid "d5d1f169-9bcb-4532-b35f-e7649c2ccd80")
 	)
-	(hierarchical_label "IFH_H"
+	(hierarchical_label "IFH_P"
 		(shape input)
 		(at 62.23 191.77 180)
 		(effects
@@ -4762,7 +4762,7 @@
 		)
 		(uuid "e632cb35-c1b2-4620-920e-f60f3adefa25")
 	)
-	(hierarchical_label "IFL_H"
+	(hierarchical_label "IFL_P"
 		(shape input)
 		(at 161.29 166.37 0)
 		(effects
