@@ -2991,7 +2991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29476012-ec4b-4ccf-9b61-f125cb7f2c14")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR2"
 			(at 81.28 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3051,7 +3051,7 @@
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
-					(reference "#PWR02")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
@@ -3851,7 +3851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6872a78d-126d-4244-8d37-1df5554d95a4")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR4"
 			(at 116.84 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -3911,7 +3911,7 @@
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -4578,7 +4578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af2b5ca2-ece2-426e-bfa0-7582eeb094e1")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 95.25 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -4638,7 +4638,7 @@
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
-					(reference "#PWR03")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
@@ -4817,7 +4817,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebcc5250-353a-4834-aaeb-c72216b6ceef")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR1"
 			(at 81.28 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4877,7 +4877,7 @@
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90"
-					(reference "#PWR01")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)

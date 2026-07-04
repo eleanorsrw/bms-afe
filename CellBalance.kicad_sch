@@ -676,7 +676,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "GSF0304"
+			(property "Reference" "U"
 				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1530,7 +1530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "332a81ed-6a0c-4c30-8b63-3de228577771")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR5"
 			(at 119.38 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -1590,27 +1590,27 @@
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/199aea63-5bfb-41be-ba55-0a021bc0a074"
-					(reference "#PWR031")
+					(reference "#PWR31")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/2aa084bd-01e7-47e5-8f6d-30b4f325d7f4"
-					(reference "#PWR06")
+					(reference "#PWR6")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/30f9ba51-47e3-4adb-895f-80ddd8089ec1"
-					(reference "#PWR033")
+					(reference "#PWR33")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/9ef805d4-1601-4480-b9fd-3e26be539576"
-					(reference "#PWR034")
+					(reference "#PWR34")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/a6f93463-0553-4e94-825f-86704d73fcd7"
-					(reference "#PWR05")
+					(reference "#PWR5")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/cf97efbe-7ee9-4abe-8844-0d879c082204"
-					(reference "#PWR032")
+					(reference "#PWR32")
 					(unit 1)
 				)
 			)
@@ -2241,7 +2241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4e525b5-5034-4619-bf5d-8f0d7f5d353a")
-		(property "Reference" "GSF1"
+		(property "Reference" "U1"
 			(at 132.08 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2311,27 +2311,27 @@
 		(instances
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/199aea63-5bfb-41be-ba55-0a021bc0a074"
-					(reference "GSF3")
+					(reference "U4")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/2aa084bd-01e7-47e5-8f6d-30b4f325d7f4"
-					(reference "GSF2")
+					(reference "U3")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/30f9ba51-47e3-4adb-895f-80ddd8089ec1"
-					(reference "GSF5")
+					(reference "U6")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/9ef805d4-1601-4480-b9fd-3e26be539576"
-					(reference "GSF6")
+					(reference "U7")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/a6f93463-0553-4e94-825f-86704d73fcd7"
-					(reference "GSF1")
+					(reference "U1")
 					(unit 1)
 				)
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/cf97efbe-7ee9-4abe-8844-0d879c082204"
-					(reference "GSF4")
+					(reference "U5")
 					(unit 1)
 				)
 			)

@@ -5,6 +5,129 @@
 	(uuid "9b3355e0-a14a-4e3c-91c8-0eab1f93c2ea")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -958,16 +1081,40 @@
 		(uuid "f4485b02-1b22-4222-a4fc-09d9fd98fede")
 	)
 	(junction
+		(at 198.12 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03de25fe-fbba-44f4-a811-a3505dfb632c")
+	)
+	(junction
+		(at 201.93 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09dce77d-dfec-45c2-a9e5-f2cc29d089dc")
+	)
+	(junction
 		(at 165.1 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f3a3216-f242-4359-a359-ef094f3792c6")
 	)
 	(junction
+		(at 77.47 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66329e43-52c7-4bd4-896c-87ba5ffbc823")
+	)
+	(junction
 		(at 168.91 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ca6bb7d-a636-47a0-aff6-eb69746a86bf")
+	)
+	(junction
+		(at 81.28 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ef87e21-62ef-4cb0-a929-a2e9d67b6a89")
 	)
 	(junction
 		(at 165.1 97.79)
@@ -1015,7 +1162,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 90.17) (xy 83.82 90.17)
+			(xy 74.93 90.17) (xy 81.28 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1222,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 93.98) (xy 196.85 93.98)
+			(xy 191.77 93.98) (xy 198.12 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1103,6 +1250,16 @@
 		)
 		(uuid "4f23d3b1-0341-414b-acff-59170401ba27")
 	)
+	(wire
+		(pts
+			(xy 81.28 87.63) (xy 81.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51dc52d6-f87e-4031-a5ec-677ff7a94bd4")
+	)
 	(polyline
 		(pts
 			(xy 257.81 115.57) (xy 110.49 115.57)
@@ -1112,6 +1269,16 @@
 			(type default)
 		)
 		(uuid "53671227-70bf-4611-833f-678512bcc40a")
+	)
+	(wire
+		(pts
+			(xy 201.93 91.44) (xy 209.55 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61130863-e28d-4841-9804-d9e1c13c67e5")
 	)
 	(polyline
 		(pts
@@ -1185,7 +1352,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 91.44) (xy 196.85 91.44)
+			(xy 191.77 91.44) (xy 201.93 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1202,6 +1369,16 @@
 			(type default)
 		)
 		(uuid "7c4970cf-da3b-48a3-a843-8df2e9ce3dbe")
+	)
+	(wire
+		(pts
+			(xy 77.47 92.71) (xy 83.82 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf6a624-db04-4dfd-b1ca-0e70c0250e82")
 	)
 	(wire
 		(pts
@@ -1225,13 +1402,33 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 92.71) (xy 83.82 92.71)
+			(xy 74.93 92.71) (xy 77.47 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "86369dea-4f75-4994-8b79-97aea619857e")
+	)
+	(wire
+		(pts
+			(xy 81.28 90.17) (xy 83.82 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac4a1b8-813f-4eee-a80e-b5c3cae63bb4")
+	)
+	(wire
+		(pts
+			(xy 198.12 93.98) (xy 209.55 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952e22db-7a4a-4c89-9174-2d262ac35898")
 	)
 	(polyline
 		(pts
@@ -1275,6 +1472,26 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 87.63) (xy 198.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c716b0ea-b8fd-4c9e-ac8d-cc0d1ff9d604")
+	)
+	(wire
+		(pts
+			(xy 77.47 87.63) (xy 77.47 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8855fc5-fc41-4542-be4d-12590d9b2bdf")
+	)
+	(wire
+		(pts
 			(xy 168.91 87.63) (xy 175.26 87.63)
 		)
 		(stroke
@@ -1302,6 +1519,16 @@
 			(type default)
 		)
 		(uuid "ec274401-a6b6-41dc-9eb6-42ee22aac3bd")
+	)
+	(wire
+		(pts
+			(xy 201.93 87.63) (xy 201.93 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa6a023-e8e9-4da7-b690-f87446e36848")
 	)
 	(wire
 		(pts
@@ -1459,10 +1686,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "265a0247-7400-4261-92d4-23b0e9a1a281")
 		(property "Reference" "R5"
-			(at 180.34 97.79 90)
+			(at 180.34 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1471,8 +1697,8 @@
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 180.34 100.33 90)
+		(property "Value" "RES 0 OHM JUMPER 1/10W 0603"
+			(at 180.34 109.474 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1492,7 +1718,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0603ZT0R00/1756908"
 			(at 180.34 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1503,7 +1729,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "RES 0 OHM JUMPER 1/10W 0603"
 			(at 180.34 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1530,8 +1756,86 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:B2B-ZR")
-		(at 196.85 91.44 0)
+		(lib_id "Connector:TestPoint")
+		(at 198.12 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2feca45e-5a95-4941-bcea-57f4e7e907f4")
+		(property "Reference" "TP17"
+			(at 195.834 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 193.802 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 203.2 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 198.12 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c9607e7-5ef6-421a-a2d7-7190dea3106d")
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/6d53ec20-967d-414a-950d-119f66d4f6c2"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 201.93 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1540,9 +1844,87 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "3c5b5487-d216-4025-9a47-e8a17f132de3")
+		(property "Reference" "TP18"
+			(at 204.47 83.0579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 204.47 85.5979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 207.01 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 201.93 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ea7bfe9-8fbb-42cd-b2b9-d196a9ddb410")
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/6d53ec20-967d-414a-950d-119f66d4f6c2"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:B2B-ZR")
+		(at 209.55 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "6ee9ed64-d01f-4265-9fa5-55de99d5e643")
 		(property "Reference" "J3"
-			(at 210.82 91.4399 0)
+			(at 214.884 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1553,7 +1935,7 @@
 			)
 		)
 		(property "Value" "CONN HEADER VERT 2POS 1.5MM"
-			(at 210.82 93.9799 0)
+			(at 214.884 87.376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1564,7 +1946,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CONN_B2B-ZR_02P_JST"
-			(at 196.85 91.44 0)
+			(at 209.55 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1576,7 +1958,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B2B-ZR/926564"
-			(at 196.85 91.44 0)
+			(at 209.55 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1588,7 +1970,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole 2 position 0.059\" (1.50mm)"
-			(at 196.85 91.44 0)
+			(at 209.55 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1623,7 +2005,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9a2ade01-29af-4f9d-b45f-b0ece7043b4e")
 		(property "Reference" "T1"
 			(at 180.34 82.55 0)
@@ -1636,7 +2017,7 @@
 			)
 		)
 		(property "Value" "PULSE XFMR 15UH 1 OHM FOR PLC"
-			(at 180.34 85.09 0)
+			(at 173.736 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1709,10 +2090,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c07083c7-eb35-4825-a394-47f72f40e26e")
 		(property "Reference" "J2"
-			(at 66.04 82.55 0)
+			(at 66.04 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1722,7 +2102,7 @@
 			)
 		)
 		(property "Value" "CONN HEADER VERT 2POS 1.5MM"
-			(at 66.04 85.09 0)
+			(at 67.564 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1782,6 +2162,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 77.47 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c731301e-c9b5-4b4e-a30b-312e83b0b657")
+		(property "Reference" "TP16"
+			(at 75.184 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 73.152 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 82.55 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 77.47 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25f44770-beb7-4e0c-b3da-c106eaaac990")
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/6d53ec20-967d-414a-950d-119f66d4f6c2"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 180.34 78.74 90)
 		(unit 1)
@@ -1803,7 +2261,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "RES 0 OHM JUMPER 1/10W 0603"
 			(at 180.34 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1824,7 +2282,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0603ZT0R00/1756908"
 			(at 180.34 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1835,7 +2293,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "RES 0 OHM JUMPER 1/10W 0603"
 			(at 180.34 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1856,6 +2314,85 @@
 			(project "bms-afe"
 				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/6d53ec20-967d-414a-950d-119f66d4f6c2"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cee8519a-13ac-4e7c-a3ae-b0d6f1ab10e8")
+		(property "Reference" "TP15"
+			(at 83.82 83.0579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 83.82 85.5979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 86.36 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2dddb19e-84fa-4ae8-9a10-ee29cfdd29f6")
+		)
+		(instances
+			(project "bms-afe"
+				(path "/226a23e7-09bb-40bc-b53a-ec42a6b7cc90/6d53ec20-967d-414a-950d-119f66d4f6c2"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
